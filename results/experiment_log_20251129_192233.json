@@ -1,0 +1,57 @@
+{
+  "timestamp": "20251129_192233",
+  "device": "cuda",
+  "total_experiments": 4,
+  "successful": 4,
+  "failed": 0,
+  "experiments": [
+    {
+      "experiment_id": "scaling_Dense_Scaling_Small_tol0.5",
+      "phase": "scaling_study",
+      "gpu": 1,
+      "config_name": "Dense_Scaling_Small",
+      "base_layer": "Dense",
+      "tolerance": 0.5,
+      "status": "success",
+      "proof_time": 1.0954702695210774,
+      "proof_size_kb": 45.8671875,
+      "circuit_size": 5440
+    },
+    {
+      "experiment_id": "scaling_Dense_Scaling_Small_tol2.0",
+      "phase": "scaling_study",
+      "gpu": 1,
+      "config_name": "Dense_Scaling_Small",
+      "base_layer": "Dense",
+      "tolerance": 2.0,
+      "status": "success",
+      "proof_time": 1.0873911380767822,
+      "proof_size_kb": 45.853515625,
+      "circuit_size": 5440
+    },
+    {
+      "experiment_id": "scaling_Dense_Scaling_Large_tol0.5",
+      "phase": "scaling_study",
+      "gpu": 1,
+      "config_name": "Dense_Scaling_Large",
+      "base_layer": "Dense",
+      "tolerance": 0.5,
+      "status": "success",
+      "proof_time": 16.739458401997883,
+      "proof_size_kb": 249.294921875,
+      "circuit_size": 272896
+    },
+    {
+      "experiment_id": "scaling_Dense_Scaling_Large_tol2.0",
+      "phase": "scaling_study",
+      "gpu": 1,
+      "config_name": "Dense_Scaling_Large",
+      "base_layer": "Dense",
+      "tolerance": 2.0,
+      "status": "success",
+      "proof_time": 16.78332821528117,
+      "proof_size_kb": 249.1884765625,
+      "circuit_size": 272896
+    }
+  ]
+}

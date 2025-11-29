@@ -1,0 +1,31 @@
+{
+  "timestamp": "20251129_203858",
+  "device": "cuda",
+  "total_experiments": 2,
+  "successful": 2,
+  "failed": 0,
+  "experiments": [
+    {
+      "experiment_id": "core_Dense_tol0.5",
+      "phase": "core_layers",
+      "gpu": 1,
+      "layer_name": "Dense",
+      "tolerance": 0.5,
+      "status": "success",
+      "proof_time": 2.2825213273366294,
+      "proof_size_kb": 74.9306640625,
+      "circuit_size": 19072
+    },
+    {
+      "experiment_id": "core_Dense_tol2.0",
+      "phase": "core_layers",
+      "gpu": 1,
+      "layer_name": "Dense",
+      "tolerance": 2.0,
+      "status": "success",
+      "proof_time": 1.2832640012105305,
+      "proof_size_kb": 74.861328125,
+      "circuit_size": 19072
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "experimental_config": 2.0,
+  "ezkl_input_scale": 7,
+  "ezkl_param_scale": 7,
+  "compile_time": 0.020240068435668945,
+  "circuit_size": 5277528,
+  "num_constraints": 5,
+  "setup_time": 577.5978660583496,
+  "pk_size_kb": 34619393.76074219,
+  "vk_size_kb": 16385.2568359375,
+  "proof_time_mean": 293.68424852689105,
+  "proof_time_std": 7.709404295426414,
+  "proof_time_min": 287.0893404483795,
+  "proof_time_max": 304.50052976608276,
+  "proof_size_kb": 478.7587890625,
+  "peak_memory_mean_gb": 1.2631072998046875,
+  "peak_memory_std_gb": 0.8258180115914537,
+  "verify_time": 3.897016763687134,
+  "proof_valid": true,
+  "model_name": "CNN_Mixed",
+  "tolerance": 2.0,
+  "status": "success"
+}

@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.0374758243560791,
+  "circuit_size": 2310144,
+  "num_constraints": 5,
+  "setup_time": 297.007853269577,
+  "pk_size_kb": 35923458.19042969,
+  "vk_size_kb": 9729.5693359375,
+  "proof_time_mean": 260.9190951983134,
+  "proof_time_std": 0.5406401983475378,
+  "proof_time_min": 260.1878535747528,
+  "proof_time_max": 261.4781119823456,
+  "proof_size_kb": 24568.40625,
+  "peak_memory_mean_gb": 3.8078206380208335,
+  "peak_memory_std_gb": 3.498894580860997,
+  "verify_time": 3.7685327529907227,
+  "proof_valid": true,
+  "model_name": "MaxPool2d_k2",
+  "tolerance": 0.5,
+  "status": "success"
+}

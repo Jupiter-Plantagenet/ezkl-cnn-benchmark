@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.0011706352233886719,
+  "circuit_size": 96256,
+  "num_constraints": 3,
+  "setup_time": 6.750356435775757,
+  "pk_size_kb": 540929.7607421875,
+  "vk_size_kb": 257.2568359375,
+  "proof_time_mean": 5.178435405095418,
+  "proof_time_std": 0.009128747910355197,
+  "proof_time_min": 5.166518926620483,
+  "proof_time_max": 5.188694715499878,
+  "proof_size_kb": 1216.7685546875,
+  "peak_memory_mean_gb": 0.4022572835286458,
+  "peak_memory_std_gb": 0.25575552351091074,
+  "verify_time": 0.1244351863861084,
+  "proof_valid": true,
+  "model_name": "ReLU",
+  "tolerance": 0.5,
+  "status": "success"
+}

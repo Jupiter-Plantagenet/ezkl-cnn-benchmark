@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.0812070369720459,
+  "circuit_size": 272896,
+  "num_constraints": 2,
+  "setup_time": 17.118748426437378,
+  "pk_size_kb": 2163713.7607421875,
+  "vk_size_kb": 1025.2568359375,
+  "proof_time_mean": 16.739458401997883,
+  "proof_time_std": 0.10922191843154222,
+  "proof_time_min": 16.585038423538208,
+  "proof_time_max": 16.81982970237732,
+  "proof_size_kb": 249.294921875,
+  "peak_memory_mean_gb": 0.5167516072591146,
+  "peak_memory_std_gb": 0.2568872119486512,
+  "verify_time": 0.28018808364868164,
+  "proof_valid": true,
+  "model_name": "Dense_Scaling_Large",
+  "tolerance": 0.5,
+  "status": "success"
+}

@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.026154518127441406,
+  "circuit_size": 5531480,
+  "num_constraints": 5,
+  "setup_time": 348.51763558387756,
+  "pk_size_kb": 34619393.76074219,
+  "vk_size_kb": 16385.2568359375,
+  "proof_time_mean": 288.2626667022705,
+  "proof_time_std": 1.1808997262978906,
+  "proof_time_min": 286.6870291233063,
+  "proof_time_max": 289.52987146377563,
+  "proof_size_kb": 478.8623046875,
+  "peak_memory_mean_gb": 2.6743062337239585,
+  "peak_memory_std_gb": 2.7900200479386537,
+  "verify_time": 4.0482683181762695,
+  "proof_valid": true,
+  "model_name": "CNN_Poly",
+  "tolerance": 0.5,
+  "status": "success"
+}

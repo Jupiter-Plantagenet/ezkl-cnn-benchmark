@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.0018379688262939453,
+  "circuit_size": 67584,
+  "num_constraints": 2,
+  "setup_time": 6.41013765335083,
+  "pk_size_kb": 639266.1044921875,
+  "vk_size_kb": 289.5068359375,
+  "proof_time_mean": 5.181082646052043,
+  "proof_time_std": 0.1051704926405233,
+  "proof_time_min": 5.097546815872192,
+  "proof_time_max": 5.329422473907471,
+  "proof_size_kb": 1266.072265625,
+  "peak_memory_mean_gb": -0.0027300516764322915,
+  "peak_memory_std_gb": 0.05743954270853158,
+  "verify_time": 0.10861849784851074,
+  "proof_valid": true,
+  "model_name": "SiLU",
+  "tolerance": 0.5,
+  "status": "success"
+}

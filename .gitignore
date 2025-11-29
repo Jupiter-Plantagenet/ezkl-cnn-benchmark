@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# PyTorch
+*.pth
+*.pt
+*.onnx
+
+# EZKL temporary files
+temp*/
+*.ezkl
+*.key
+*.bin
+*.pf
+witness.json
+input.json
+settings.json
+calibration.json
+srs/
+
+# Data
+data/
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+
+# Results (keep structure, ignore individual result files if very large)
+# Uncomment if results are too large for GitHub
+# results/**/*.json
+# !results/.gitkeep
+
+# Logs
+*.log
+experiment_run_*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# LaTeX / Paper (keep paper private until publication)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bcf
+*.run.xml
+paper/
+!paper/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temporary/scratch files
+scratch/
+tmp/
+temp_*/
+
+# Backups (keep for local use, don't push to GitHub)
+backups/
+
+# PID files
+.*_pid
+.gpu*_pid

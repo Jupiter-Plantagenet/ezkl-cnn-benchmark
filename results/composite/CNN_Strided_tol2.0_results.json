@@ -1,0 +1,23 @@
+{
+  "experimental_config": 2.0,
+  "ezkl_input_scale": 7,
+  "ezkl_param_scale": 7,
+  "compile_time": 0.012715339660644531,
+  "circuit_size": 1144660,
+  "num_constraints": 4,
+  "setup_time": 80.57530522346497,
+  "pk_size_kb": 8654849.760742188,
+  "vk_size_kb": 4097.2568359375,
+  "proof_time_mean": 68.95862579345703,
+  "proof_time_std": 0.5576648826472962,
+  "proof_time_min": 68.25488352775574,
+  "proof_time_max": 69.61879110336304,
+  "proof_size_kb": 478.8662109375,
+  "peak_memory_mean_gb": 0.3308970133463542,
+  "peak_memory_std_gb": 0.35133334603139743,
+  "verify_time": 0.9905266761779785,
+  "proof_valid": true,
+  "model_name": "CNN_Strided",
+  "tolerance": 2.0,
+  "status": "success"
+}

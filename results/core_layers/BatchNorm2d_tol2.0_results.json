@@ -1,0 +1,23 @@
+{
+  "experimental_config": 2.0,
+  "ezkl_input_scale": 7,
+  "ezkl_param_scale": 7,
+  "compile_time": 0.00950765609741211,
+  "circuit_size": 2097152,
+  "num_constraints": 2,
+  "setup_time": 162.60389709472656,
+  "pk_size_kb": 17309697.760742188,
+  "vk_size_kb": 8193.2568359375,
+  "proof_time_mean": 137.44067335128784,
+  "proof_time_std": 0.3847365207236082,
+  "proof_time_min": 137.09804463386536,
+  "proof_time_max": 137.9780306816101,
+  "proof_size_kb": 39057.1943359375,
+  "peak_memory_mean_gb": 0.053897857666015625,
+  "peak_memory_std_gb": 0.6716997637786762,
+  "verify_time": 3.193234443664551,
+  "proof_valid": true,
+  "model_name": "BatchNorm2d",
+  "tolerance": 2.0,
+  "status": "success"
+}

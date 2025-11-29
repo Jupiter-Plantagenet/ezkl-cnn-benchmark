@@ -1,0 +1,23 @@
+{
+  "experimental_config": 0.5,
+  "ezkl_input_scale": 10,
+  "ezkl_param_scale": 10,
+  "compile_time": 0.010293960571289062,
+  "circuit_size": 1884162,
+  "num_constraints": 4,
+  "setup_time": 110.840092420578,
+  "pk_size_kb": 8654849.760742188,
+  "vk_size_kb": 4097.2568359375,
+  "proof_time_mean": 83.46172181765239,
+  "proof_time_std": 1.3148384502091919,
+  "proof_time_min": 82.20469331741333,
+  "proof_time_max": 85.27687406539917,
+  "proof_size_kb": 24575.7529296875,
+  "peak_memory_mean_gb": -0.7590471903483073,
+  "peak_memory_std_gb": 1.5327853770760862,
+  "verify_time": 1.7983031272888184,
+  "proof_valid": true,
+  "model_name": "AvgPool2d_k2",
+  "tolerance": 0.5,
+  "status": "success"
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "20251129_204454",
+  "device": "cuda",
+  "total_experiments": 4,
+  "successful": 4,
+  "failed": 0,
+  "experiments": [
+    {
+      "experiment_id": "composite_CNN_Mixed_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 0.5,
+      "status": "success",
+      "proof_time": 288.5436174074809,
+      "proof_size_kb": 478.71875,
+      "circuit_size": 5277528
+    },
+    {
+      "experiment_id": "composite_CNN_Mixed_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 2.0,
+      "status": "success",
+      "proof_time": 293.68424852689105,
+      "proof_size_kb": 478.7587890625,
+      "circuit_size": 5277528
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 0.5,
+      "status": "success",
+      "proof_time": 70.55835405985515,
+      "proof_size_kb": 478.8955078125,
+      "circuit_size": 1144660
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 2.0,
+      "status": "success",
+      "proof_time": 68.95862579345703,
+      "proof_size_kb": 478.8662109375,
+      "circuit_size": 1144660
+    }
+  ]
+}

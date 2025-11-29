@@ -1,0 +1,23 @@
+{
+  "experimental_config": 2.0,
+  "ezkl_input_scale": 7,
+  "ezkl_param_scale": 7,
+  "compile_time": 0.0019528865814208984,
+  "circuit_size": 65536,
+  "num_constraints": 2,
+  "setup_time": 6.445356845855713,
+  "pk_size_kb": 639266.1044921875,
+  "vk_size_kb": 289.5068359375,
+  "proof_time_mean": 5.061309258143107,
+  "proof_time_std": 0.053193582757364084,
+  "proof_time_min": 5.023467779159546,
+  "proof_time_max": 5.136535882949829,
+  "proof_size_kb": 1247.8955078125,
+  "peak_memory_mean_gb": 0.046543121337890625,
+  "peak_memory_std_gb": 0.040360210006176296,
+  "verify_time": 0.13816332817077637,
+  "proof_valid": true,
+  "model_name": "Tanh",
+  "tolerance": 2.0,
+  "status": "success"
+}

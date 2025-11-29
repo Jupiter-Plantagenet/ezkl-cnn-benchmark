@@ -1,0 +1,81 @@
+{
+  "timestamp": "20251129_191907",
+  "device": "cuda",
+  "total_experiments": 8,
+  "successful": 0,
+  "failed": 8,
+  "experiments": [
+    {
+      "experiment_id": "composite_CNN_ReLU_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_ReLU",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_ReLU_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_ReLU",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Poly_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Poly",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Poly_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Poly",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Mixed_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Mixed_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "cannot import name 'create_composite_cnn' from 'src.models' (/home/s15/CascadeProjects/cnn_ezkl_bench/src/models.py)"
+    }
+  ]
+}

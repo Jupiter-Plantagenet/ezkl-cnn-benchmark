@@ -1,0 +1,23 @@
+{
+  "experimental_config": 2.0,
+  "ezkl_input_scale": 7,
+  "ezkl_param_scale": 7,
+  "compile_time": 0.0023479461669921875,
+  "circuit_size": 65536,
+  "num_constraints": 2,
+  "setup_time": 5.784078598022461,
+  "pk_size_kb": 540929.7607421875,
+  "vk_size_kb": 257.2568359375,
+  "proof_time_mean": 4.67160177230835,
+  "proof_time_std": 0.028511931165485234,
+  "proof_time_min": 4.633470296859741,
+  "proof_time_max": 4.7020204067230225,
+  "proof_size_kb": 1255.8671875,
+  "peak_memory_mean_gb": 0.007414499918619792,
+  "peak_memory_std_gb": 0.019241699381980577,
+  "verify_time": 0.10090065002441406,
+  "proof_valid": true,
+  "model_name": "Poly",
+  "tolerance": 2.0,
+  "status": "success"
+}

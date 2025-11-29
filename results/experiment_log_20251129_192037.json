@@ -1,0 +1,81 @@
+{
+  "timestamp": "20251129_192037",
+  "device": "cuda",
+  "total_experiments": 8,
+  "successful": 0,
+  "failed": 8,
+  "experiments": [
+    {
+      "experiment_id": "composite_CNN_ReLU_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_ReLU",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_ReLU_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_ReLU",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Poly_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Poly",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Poly_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Poly",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Mixed_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Mixed_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Mixed",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.3.weight\", \"layers.3.bias\", \"layers.7.weight\", \"layers.7.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol0.5",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 0.5,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.2.weight\", \"layers.2.bias\", \"layers.5.weight\", \"layers.5.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    },
+    {
+      "experiment_id": "composite_CNN_Strided_tol2.0",
+      "phase": "composite",
+      "gpu": 2,
+      "architecture": "CNN_Strided",
+      "tolerance": 2.0,
+      "status": "failed",
+      "error": "Error(s) in loading state_dict for CompositeCNN:\n\tMissing key(s) in state_dict: \"layers.0.weight\", \"layers.0.bias\", \"layers.2.weight\", \"layers.2.bias\", \"layers.5.weight\", \"layers.5.bias\". \n\tUnexpected key(s) in state_dict: \"conv1.weight\", \"conv1.bias\", \"conv2.weight\", \"conv2.bias\", \"fc.weight\", \"fc.bias\". "
+    }
+  ]
+}
