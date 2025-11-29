@@ -100,3 +100,20 @@ backups/
 # PID files
 .*_pid
 .gpu*_pid
+
+# GitHub setup/preparation files (for maintainer use only)
+GITHUB_READY.txt
+GITHUB_SETUP.md
+REPOSITORY_READY.md
+PUSH_CHECKLIST.md
+prepare_for_github.sh
+
+# Experiment monitoring scripts (specific to multi-GPU setup)
+check_*_status.sh
+run_parallel_experiments.sh
+PARALLEL_RUN_SUMMARY.md
+run_phase*_gpu*.py
+run_composite_gpu*.py
+run_dense_gpu*.py
+run_remaining_composite.py
+run_benchmark.sh
